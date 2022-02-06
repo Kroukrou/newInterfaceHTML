@@ -1,0 +1,509 @@
+/* GENERAL */
+
+body a{
+
+    text-decoration: none;
+    
+}
+
+body p, body h1, body a, p, figcaption{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body li{
+
+    list-style-type: none;
+
+}
+
+/* HEADER */
+
+header{
+
+    background-color: rgb(255, 254, 251);
+
+}
+
+header nav{
+
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 2.5em;
+    transform: translateY(10%);
+    justify-content: space-between;
+
+}
+
+header nav img{
+
+    width: 4em;
+    height: 50%;
+    transform: translateX(4%);
+
+}
+
+
+header > img:last-of-type{
+ 
+    width: 100%;
+
+}
+
+
+header nav ul{
+
+    display: flex;
+    width: 68%;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    line-height: 0.45em;
+
+}
+ 
+header nav ul li{
+
+    height: 2.5em;
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    line-height: 2.5em;
+    transform: translate(-55%, -39%);
+
+}
+
+header svg{
+
+    width: .5em;
+
+}
+
+header svg:first-of-type{
+
+    transform: translate(110%, 10%);
+
+}
+
+.bi-caret-down-fill{
+
+    position: relative;
+    top: .09em;
+    left: .2em;
+
+}
+
+header nav ul li a{
+
+    font-size: 40%;
+    color: white;
+  
+}
+
+header nav ul li:hover{
+
+    cursor: pointer;
+
+}
+
+header nav ul li:nth-last-child(2) svg{
+
+    transform: translateY(46%);
+
+ }
+
+header nav ul li:first-child{
+
+    border: .5px solid white;
+
+}
+
+header nav ul li:nth-last-child(2){
+
+    display: flex;
+    justify-content: space-around;
+    transform: translate(-30%, -39%);
+    
+}
+
+header nav ul li:nth-last-child(1){
+
+    line-height: 5.25em;  
+  
+}
+
+header div:last-child{
+
+    transform: translate(50%, -1400%);
+    color: white;
+    font-size: .5em;
+    
+}
+
+section h1, section p{
+
+    font-size: .5em;
+
+}
+
+header div:last-child i:first-of-type{
+
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+header section{ 
+    
+    width: 70%;
+    position: relative;
+    left: 15%;
+    transform: translateY(-270%);
+    text-align: center;
+    color: white;
+
+}
+
+header div:nth-last-child(2){
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-280%);
+    
+
+}
+
+header div:nth-last-child(2) svg{
+
+    border: 1px solid white;
+    margin: 1em;
+    height: 50%;
+    width: 20%;
+
+}
+
+header div:nth-last-child(2) span:first-child{
+
+    transform: translateX(-20%);
+
+}
+
+header div:nth-last-child(2) span:last-child{
+
+    transform: translateX(20%);
+
+}
+
+/* MAIN WHAT WE OFFER */
+
+ main{ 
+     
+    background-color: rgb(255, 254, 251);
+
+}
+ 
+main section:first-child{
+
+    text-align: center;
+    border-bottom: .5em solid rgb(48, 71, 142);
+    padding-bottom: 3em;
+    padding-top: -10%;
+    margin-top: -10%; 
+    background-color: rgb(255, 254, 251);
+
+}
+
+ main section h1{
+
+    font-size: 2em;
+    font-weight: 100;
+
+}
+
+main section:first-child span svg{
+
+    transform: translateY(-25%);
+    width: 100vw;
+    height: 5em;
+
+}
+
+main div:first-child{
+   
+    width: 100%;
+
+    
+}
+
+main div figure div{
+   
+   width: 100%;
+
+          
+}
+     
+main figure img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+main div figure{
+
+    display: flex;
+    width: 30em;
+    background-color: white;
+    border: 1px solid rgb(255, 243, 243); 
+
+} 
+ 
+main figure p{
+
+    color: rgb(161, 177, 192);
+
+}
+
+main figure div{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+
+}
+
+main figcaption{
+
+    font-size: large;
+
+} 
+ 
+  main div div{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+} 
+ 
+@media screen and (min-width: 0px) and (max-width: 666px){
+
+    
+    main div{
+
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    main figure img{
+
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+}
+
+/* MAIN OUR TEAM */
+
+main section:last-child{
+
+    background-color: white;
+
+}
+
+main section:last-child img{
+
+    width: 100%;
+
+}
+
+main section:last-child div{
+
+    display: flex;
+  
+}
+
+main section:last-child svg{
+
+    width: 100vw;
+    height: 5em;
+
+
+}
+
+main section:last-child span:not(.function){
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+main section:last-child figure{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+main section:last-child figure figcaption{
+
+    text-align: center;
+    font-size: 50%;
+    background-color:  rgb(255, 254, 251);
+    height: 2em;
+    line-height: 2em;
+
+}
+
+main section:last-child figure figcaption .function{
+
+    color: rgb(161, 177, 192);
+    font-size: 70%;    
+
+}
+
+/* FOOTER */
+
+footer section:first-child{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #444;
+    
+
+}
+
+footer h1{
+
+    color: white;
+
+}
+
+
+footer section:first-child section:first-child span{
+
+    color: dodgerblue;
+
+}
+
+footer section:first-child section:first-child{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: .5em;
+    width: 25%;
+    height: 100%;
+    color: gray;
+   
+
+}
+
+footer section:first-child section:nth-child(2){
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.8em;
+     width: 25%; 
+     height: 10%; 
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: gray;
+   
+
+}
+
+footer section:first-child section:nth-child(3){
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    padding: .24em;
+    color: gray;
+   
+
+}
+
+footer section:first-child img{
+
+    width: 100%;
+
+}
+
+footer #last{
+
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5em;
+    background-color: rgb(66, 62, 62);
+    width: 100%;
+    padding-bottom: 10em;
+
+
+
+}
+
+footer #last ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    line-height: 3em;
+
+} 
+
+footer #last ul li{
+
+    width: 5em;
+    text-align: center;
+    color: rgb(99, 94, 94);
+
+}
+
+footer #last ul #target{
+
+    color: white;
+
+}
+
+footer a{ 
+    
+    color: rgb(131, 117, 117);
+}
+
+footer #last span{
+
+    color: dodgerblue;
+
+}
+
+footer #last p{
+
+    color: rgb(131, 117, 117);
+    transform: translate(20%, 40%);
+
+}
+
