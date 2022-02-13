@@ -151,6 +151,7 @@ section .heading-1{
 
     font-size: 2em;
     transform: translateY(90%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -222,10 +223,13 @@ main section:first-child{
 
 }
 
- main section h1, main section .heading, main section .heading{
+ main section h1, main section .heading{
 
     font-size: 2em;
     font-weight: 100;
+    position: relative;
+    top: .3em;
+   
 
 }
 
@@ -289,6 +293,7 @@ main figure div{
 main h2{
 
     font-size: large;
+    font-weight: 100;
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
